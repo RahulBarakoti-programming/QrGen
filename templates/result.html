@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code</title>
+    <style>
+        .container{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="container mt-5">
+        <h1>QR Code Generated</h1>
+        <img src="{{ url_for('static', filename='qrcode.png') }}" alt="QR Code">
+        <br>
+       
+    </div>
+</div>
+</body>
+</html>
